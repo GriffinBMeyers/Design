@@ -1,4 +1,4 @@
-Design - Group 9
+# Design - Group 9
 
 Our project is to create a dynamic scalable instance of Selenium Grid, a framework for testing websites and wep apps in parallel. We are utilizing Microsoft Azure for creating virtual machines to run our Grid's hub and nodes.
 
@@ -12,4 +12,10 @@ Some information is difficult to get directly from the Grid without injecting a 
 
 The VMs also rely on a set of PowerShell scripts that install necessary packages and set system variables.
 
-The interaces for our objects to commuinicate is the ParserPrinter, which gets the information about the specific nodes using the Scraper and communicates to the GridManager/Selenium Scaler classes.
+One interace for the objects to commuinicate is the ParserPrinter, which gets the information about the specific nodes using the Scraper and communicates to the GridManager/Selenium Scaler classes.
+
+## External Interactions with the System 
+![External Interactions](/images/External.png)
+
+## System Architecture for data Collection
+![Data Collection](/images/Architecture.png)
